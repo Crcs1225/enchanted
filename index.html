@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Happy New Year</title>
+</head>
+<body>
+    <div id="card">
+        <h2>Secret Message</h2>
+        
+        <div id="passwordPage">
+            <p>Unlock the magic with the <em>timeless password</em>.</p>
+            <div class="curved-input">
+                <input type="password" id="passwordInput" placeholder="Password">
+            </div>
+            <div class="show-password">
+                <input type="checkbox" id="showPasswordCheckbox" onchange="togglePasswordVisibility()">
+                <label for="showPasswordCheckbox">Show Password</label>
+            </div>
+            <button class="curved-button" onclick="checkPassword()">Enter</button>
+        </div>
+
+        <div id="mainPage" style="display: none;">
+
+            <div class="card" id="imageCard">
+                <div class="scrollable-content">
+                    <div class="image-section">
+                        <img src="image1.jpg" alt="Image 1">
+                    </div>
+                    <div class="text-section">
+                        <p>  Though our meeting was confined to the digital realm, the solace and joy I find in your virtual presence transcend the physical miles that separate us. As we step into the new year, I'm thankful for a love that defies boundaries, cherishing the moments we've shared through screens that have beautifully painted the canvas of our unique love story. Despite the brevity of our online connection, it feels as if I've known you for a lifetime.</p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+
+            <div class="card" id="textCard1" style="display: none;">
+                <div class="scrollable-content">
+                    <div class="image-section">
+                        <img src="image2.jpg" alt="Image 2">
+                    </div>
+                    <div class="text-section">
+                        <p>   Even in moments when communication eludes us, I am immensely grateful for the memories, laughter, and more that you've shared. You continue to be my inspiration, and I thank you for being a source of joy and strength, even in the absence of our usual exchanges.</p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+
+            <div class="card" id="textCard2" style="display: none;">
+                <div class="scrollable-content">
+                    <div class="image-section">
+                        <img src="image3.jpg" alt="Image 3">
+                    </div>
+                    <div class="text-section">
+                        <p>As the pages of time unfold, I hold onto the warmth of your love like a dear companion. The memory of your smile, the echoes of your laughter, and the solace of your virtual company stay with me. I eagerly anticipate the creation of new beautiful memories, even in the absence of direct communication through screens and messages.</p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+
+            <div class="card" id="textCard3" style="display: none;">
+                <div class="scrollable-content">
+                    <div class="image-section">
+                        <img src="image4.jpg" alt="Image 4">
+                    </div>
+                    <div class="text-section">
+                        <p> In the approaching year, let's chart a course through the uncharted territories of our long-distance journey with optimism and resilience. Together, let's establish personal goals that will shape the paths we tread—whether it's achieving milestones like graduation, progressing in our careers, or strategically planning our lives. Despite the physical distance, our love will remain a steadfast anchor, providing stability through the ebb and flow of our individual pursuits. May the coming year bring not only the accomplishment of our personal goals but also the continued admiration and support we offer each other from afar.</p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+
+            <div class="card" id="textCard4" style="display: none;">
+                <div class="scrollable-content">
+                    <div class="image-section">
+                        <img src="image5.jpg" alt="Image 5">
+                    </div>
+                    <div class="text-section">
+                        <p>I hope that in the coming year, we have the opportunity to see each other, ensuring that our feelings remain vibrant and unwavering. May blessings in life, peace of mind, a strong family orientation, and self-love be constants in our journey.</p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+
+            <div class="card" id="textCard5" style="display: none;">
+                <div class="scrollable-content">
+                    <div class="image-section">
+                        <img src="image6.jpg" alt="Image 6">
+                    </div>
+                    <div class="text-section">
+                        <p>Here's to another year of love that defies distance, to countless shared sunsets and sunrises, and to the anticipation of the day when our physical proximity matches the closeness of our hearts.</p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+
+            <div class="card" id="textCard6" style="display: none;">
+                <div class="scrollable-content">
+                    <div class="image-section">
+                        <img src="image7.jpg" alt="Image 7">
+                    </div>
+                    <div class="text-section">
+                      <p>Happy New Year, my love!</p>
+                      <p>With all my heart,</p>
+                      <p>Marc Daniel Caracas</p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+
+            <div class="card" id="textCard7" style="display: none;">
+                <div class="scrollable-content">
+                    <div class="text-section">
+                        <p>Google Photos link: https://photos.app.goo.gl/gJiU6dJTx83YktRm9<a href="https://photos.app.goo.gl/gJiU6dJTx83YktRm9">Google Photos</a></p>
+                    </div>
+                </div>
+                <button class="curved-button" onclick="nextCard()">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

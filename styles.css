@@ -1,0 +1,114 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background: url('bg.jpg') center/cover no-repeat;
+}
+
+#card {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+}
+
+#passwordPage, #mainPage {
+  margin-top: 20px;
+  color: white;
+}
+
+em {
+  font-style: italic;
+  color: white; /* Set the color to white */
+}
+
+.curved-input {
+  position: relative;
+  display: inline-block;
+}
+
+.curved-input input {
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  outline: none;
+  width: 200px;
+  color: white;
+  background-color: transparent;
+}
+
+.show-password {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.show-password input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.curved-button {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6f42c1; /* Purple color, you can change it */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px;
+  overflow: hidden; /* Hide content that exceeds the card */
+}
+
+.scrollable-content {
+  max-height: 300px; /* Set a maximum height for the scrollable content */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds the maximum height */
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-section {
+  margin-top: 20px;
+  color: blueviolet;
+}
+.curved-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #6f42c1;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
